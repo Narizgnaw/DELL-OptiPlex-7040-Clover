@@ -1,10 +1,10 @@
 # DELL-OptiPlex-7040-Clover
-##### 修改内容
-原作者对于驱动HD530过于复杂，有更简单的方式，change GFX0 to IGPU即可解决HD530显存不足的问题，本Fork修改以下内容：
+### 修改内容
+原作者对于驱动HD530过于复杂，有更简单的方式，修改GFX0至IGPU即可解决HD530显存不足的问题，本Fork修改以下内容：
 - 修改GFX0至IGPU驱动HD530，省去一系列麻烦
 - 解决HID legacy shim2处卡住 AppleUSBHostResources 禁行/禁止 花屏无法启动问题
 
-##### 使用教程
+### 使用教程
 直接使用本EFI文件
 
 ---
