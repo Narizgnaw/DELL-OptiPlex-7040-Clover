@@ -1,8 +1,18 @@
 # DELL-OptiPlex-7040-Clover
+### 总览
+
+- 支持最新测试版 **macOS Catalina 10.15 Beta (19A471t)**
+- 集成显卡已驱动
+- 集成声卡已驱动
+- 支持有线网络连接
+- 支持休眠
+
 ### 修改内容
+
 原作者对于驱动HD530过于复杂，有更简单的方式，修改GFX0至IGPU即可解决HD530显存不足的问题，本Fork修改以下内容：
 - 修改GFX0至IGPU驱动HD530，省去一系列麻烦
 - 解决HID legacy shim2处卡住 AppleUSBHostResources 禁行/禁止 花屏无法启动问题
+- 更新Clover与Kext版本支持macOS Catalina
 
 ### 使用教程
 直接使用本EFI文件
